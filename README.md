@@ -54,7 +54,7 @@ In response, it returns the code 200 along with a JSON with the following fields
 - best_machine: String (values from ["riggeti_aspen8", "riggeti_aspen9", "ionq","dwave_advantage","dwave_dw2000"]). Name of the machine where it is recommended to run the code.
 - estimated_time: Number. Estimated time to complete execution on the recommended machine (in seconds). If no time estimation models have been generated yet the returned value will be -1.
 - estimated_cost: Number. Estimated cost in USD
-Si no se encuentra ninguna máquina que cumpla con las condiciones marcadas, se devolverá un código 204 con el siguiente mensaje en JSON:
+If no machine matching the conditions is found, a 204 code will be returned with the following message in JSON:
 
 - best_machine: null,
 - reason: String. Reason why a suitable machine has not been found.
