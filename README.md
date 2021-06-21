@@ -19,6 +19,8 @@ To run the gateway it is necessary to have the following software installed:
 - boto3 (with pip3)
 - amazon-braket-sdk (with pip3)
 - flask (with pip3)
+- tensorflow==1.14.0 (with pip3)
+- keras==2.3.1 (with pip3)
 
 Previously execute, you must configure credentials and region to access AWS using boto3 in the files ~/.aws/credentials and ~/.aws/config, respectively 
 
