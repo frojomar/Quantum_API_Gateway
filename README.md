@@ -102,3 +102,5 @@ Two models are generated: one for gate-based machines and one for annealing mach
     - Time taken to obtain the result of the execution with the described characteristics (in seconds)
     
 The model could be improved by changing the usage of the time taken for the last previous execution to the processor workload at the time of requesting the current execution. However, this information is not provided by AWS Braket at this time.
+
+![LSTM model](architecture_LSTM.png)
