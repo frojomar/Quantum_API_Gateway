@@ -7,8 +7,9 @@ This repository provides a Quantum API Gateway that can be used to obtain recomm
 
 The selection of the machines is made, roughly speaking, based on the flow shown in the following figure:
 
-![Balancer flow](Flow.png)
-
+<p align="center">
+<img src="Flow.png" alt="Quantum API Gateway flow" width="400"/>
+</p>
 
 ## Requirements
 
